@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingTop="64dp">
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recyclerViewCards"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/lbl_growth"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="false"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/lbl_day_routine"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/towerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHeader"
+        android:layout_marginTop="60dp"
+        android:baselineAligned="false"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <FrameLayout
+            android:id="@+id/tower1"
+            android:layout_width="0dp"
+            android:layout_height="400dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:id="@+id/tower2"
+            android:layout_width="0dp"
+            android:layout_height="500dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:id="@+id/tower3"
+            android:layout_width="0dp"
+            android:layout_height="420dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

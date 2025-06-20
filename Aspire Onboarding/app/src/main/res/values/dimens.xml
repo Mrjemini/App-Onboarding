@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="block_size">80dp</dimen> <!-- Recommended -->
+
+</resources>
