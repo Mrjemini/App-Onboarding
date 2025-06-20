@@ -37,7 +37,7 @@ This Android app presents a smooth, multi-page experience with interactive eleme
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Mrjemini/Store-App.git
+   git clone https://github.com/Mrjemini/App-Onboarding.git
 
 
 ## 📸 Screenshots
